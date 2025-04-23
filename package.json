@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/joaquimlima26/introducao_api_rest/issues"
   },
-  "homepage": "https://github.com/joaquimlima26/introducao_api_rest#readme"
+  "homepage": "https://github.com/joaquimlima26/introducao_api_rest#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
